@@ -51,7 +51,7 @@
   "enableEatDrinkAnimation": true,
   "enableRowBoatAnimation": true,
   "enableHorseAnimation": true,
-  "enableHorseLegAnimation": false,
+  "enableHorseLegAnimation": true,
   "dontHoldItemsInBed": true,
   "freezeArmsInBed": true,
   "rotationLock": "NONE",
