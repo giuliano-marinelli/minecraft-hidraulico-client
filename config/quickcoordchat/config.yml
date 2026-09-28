@@ -1,0 +1,38 @@
+# QuickCoordChat v1.6.0
+# Author: pinecraft77
+# This file stores your message texts, enable states, key bindings, and death-location settings.
+# Examples: Z, RIGHT_SHIFT, MOUSE4, NONE.
+# Older numeric key_code values are still accepted when reading.
+
+message1:
+  enabled: true
+  key_code: H
+  text: "Estoy en"
+  # Default emergency slot. Current default key: Z
+
+message2:
+  enabled: true
+  key_code: NONE
+  text: ""
+
+message3:
+  enabled: true
+  key_code: NONE
+  text: ""
+
+message4:
+  enabled: true
+  key_code: NONE
+  text: ""
+
+message5:
+  enabled: true
+  key_code: NONE
+  text: ""
+
+death_location:
+  enabled: true
+  send_mode: global_chat
+  send_timing: respawn
+  message: "Me morí en"
+  # Message is used as a prefix before coordinates.

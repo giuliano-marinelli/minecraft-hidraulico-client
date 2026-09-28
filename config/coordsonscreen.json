@@ -1,0 +1,11 @@
+{
+  "position": "TOP_LEFT",
+  "xPadding": 5,
+  "yPadding": 5,
+  "fontSizePercent": 100,
+  "showMainCoords": true,
+  "showAltCoords": true,
+  "showBiome": true,
+  "useBiomeColor": true,
+  "showStructure": true
+}

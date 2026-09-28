@@ -1,0 +1,1005 @@
+[STDOUT]   <log4j:Event logger="FabricLoader/GameProvider" timestamp="1790559842880" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loading Minecraft 26.2 with Fabric Loader 0.19.5]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mappings" timestamp="1790559842883" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Mappings not present!]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader" timestamp="1790559843134" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loading 95 mods:
+	- emf_compat_core 2.0.0
+	- emf_compat_not_enough_animations 1.2.0
+	- entity_model_features 3.3.8
+	- entity_texture_features 7.2.4
+	- fabric-api 0.161.0+26.2
+	   |-- fabric-advancement-api-v1 1.0.0+58719a3b9e
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-api-lookup-api-v1 2.0.18+11e1c9a39e
+	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
+	   |-- fabric-block-api-v1 3.1.0+53515aab9e
+	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
+	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-content-registries-v0 11.3.2+37b1aa249e
+	   |-- fabric-convention-tags-v2 4.7.1+1f023a9e9e
+	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
+	   |-- fabric-creative-tab-api-v1 5.0.15+6468574f9e
+	   |-- fabric-data-attachment-api-v1 2.2.19+515ac5339e
+	   |-- fabric-data-generation-api-v1 25.6.0+c0da0b829e
+	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
+	   |-- fabric-dimensions-v1 5.1.12+515ac5339e
+	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
+	   |-- fabric-events-interaction-v0 5.2.8+515ac5339e
+	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
+	   |-- fabric-item-api-v1 14.5.0+c68f6cbe9e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.4+29b6eb019e
+	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
+	   |-- fabric-menu-api-v1 2.0.17+086d547a9e
+	   |-- fabric-message-api-v1 7.0.8+bb2ed3f79e
+	   |-- fabric-model-loading-api-v1 8.0.17+c80601bb9e
+	   |-- fabric-networking-api-v1 6.3.4+2989c6a09e
+	   |-- fabric-object-builder-api-v1 24.1.1+6fcd5f039e
+	   |-- fabric-particles-v1 5.0.19+d1756aa99e
+	   |-- fabric-permission-api-v1 1.0.5+e442d8d09e
+	   |-- fabric-recipe-api-v1 9.0.22+11e1c9a39e
+	   |-- fabric-registry-sync-v0 7.1.1+c7bd5b8e9e
+	   |-- fabric-renderer-api-v1 14.1.4+2b0d8a229e
+	   |-- fabric-renderer-indigo 9.1.4+2b0d8a229e
+	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
+	   |-- fabric-rendering-v1 25.3.3+515ac5339e
+	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
+	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   |-- fabric-screen-api-v1 5.2.1+5087f8249e
+	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
+	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
+	   |-- fabric-tag-api-v1 2.1.4+515ac5339e
+	   |-- fabric-transfer-api-v1 8.0.13+11dbb7d79e
+	   \-- fabric-transitive-access-wideners-v1 8.1.4+67c847259e
+	- fabric-language-kotlin 1.14.1+kotlin.2.4.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.5
+	   \-- mixinextras 0.5.5
+	- forgeconfigapiport 26.2.1
+	   |-- com_electronwill_night-config_core 3.8.4
+	   \-- com_electronwill_night-config_toml 3.8.4
+	- inventoryprofilesnext 2.3.8
+	- iris 1.11.4+mc26.2
+	   |-- io_github_douira_glsl-transformer 3.0.0-pre3
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 25
+	- lambdynlights 4.12.4+26.2
+	   |-- lambdynlights_api 4.12.4+26.2
+	   |    |-- yumi_commons_collections 2.0.0
+	   |    |-- yumi_commons_core 2.0.0
+	   |    \-- yumi_commons_event 2.0.0
+	   |-- pride 1.7.0+26.2
+	   |-- spruceui 11.0.0+26.2
+	   \-- yumi_mc_core 1.1.1+26.2
+	        |-- yumi_commons_collections 2.0.0
+	        |-- yumi_commons_core 2.0.0
+	        \-- yumi_commons_event 2.0.0
+	- libipn 6.9.0
+	- minecraft 26.2
+	- modmenu 20.0.3
+	   \-- fabric-api-base 2.0.4+ece063239e
+	- mousetweaks 2.31
+	- notenoughanimations 1.12.5
+	   |-- transition 1.0.25
+	   \-- trender 1.0.17
+	- ok_zoomer 18.0.0-beta.2
+	   |-- wrench_wrapper 0.9.1
+	   \-- wrench_wrapper_backend 0.9.1
+	- placeholder-api 3.1.0-beta.1+26.2
+	- shouldersurfing 5.1.1
+	- sodium 0.9.2+mc26.2]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843452" level="INFO" thread="main">
+    <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/giuli/Documents/Juegos/Minecraft/Mods/curseforge/Install/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843746" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843746" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843746" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843747" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843747" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843748" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843776" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'shouldersurfing.refmap.json' for shouldersurfing.common.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843777" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'shouldersurfing.refmap.json' for shouldersurfing.common.compat.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843777" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'shouldersurfing.refmap.json' for shouldersurfing.fabric.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559843779" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'shouldersurfing.refmap.json' for shouldersurfing.fabric.compat.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1790559843790" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loaded configuration file for Sodium: 37 options available, 1 override(s) found]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559844687" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev/isxander/controlify/virtualmouse/VirtualMouseHandler)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/Mixin" timestamp="1790559844688" level="WARN" thread="main">
+    <log4j:Message><![CDATA[@Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1790559844770" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GraphicsAdapterProbe" timestamp="1790559844896" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Searching for graphics cards...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GraphicsAdapterProbe" timestamp="1790559844972" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found graphics adapter: AdapterInfo{vendor=AMD, description='Radeon RX 580 Series', adapterType=0x0000230B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0417877.inf_amd64_8b2c2b61b3f8a9e5\B417004\atig6pxx.dll', openglIcdVersion=31.0.21923.11000}]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-Workarounds" timestamp="1790559844977" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [AMD_GAME_OPTIMIZATION_BROKEN]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-Workarounds" timestamp="1790559844978" level="WARN" thread="main">
+    <log4j:Message><![CDATA[This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="FabricLoader/MixinExtras|Service" timestamp="1790559845486" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="com.mojang.datafixers.DataFixerBuilder" timestamp="1790559846693" level="INFO" thread="Datafixer Bootstrap #0">
+    <log4j:Message><![CDATA[295 Datafixer optimizations took 465 milliseconds]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="oshi.driver.windows.perfmon.PerfmonDisabled" timestamp="1790559846701" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.main.Main" timestamp="1790559852171" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Completely ignored arguments: [, , ]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService" timestamp="1790559852392" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790559852424" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Setting user: michi_o_o_]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559852633" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: Modifying ETF Render State constructor because: for EMF]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="traben.entity_model_features.EMF" timestamp="1790559852634" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loading Entity Model Features, now compatible with every mod, except all the ones that aren't...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559852667" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: 6 new ETF Random Properties registered by entity_model_features]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559852677" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loading Entity Texture Features, ,serutaeF erutxeT ytitnE gnidoaL]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.fabricmc.fabric.impl.client.indigo.Indigo" timestamp="1790559852785" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[Indigo] Different rendering plugin detected; not applying Indigo.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Mod Menu/Update Checker" timestamp="1790559852926" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Checking mod updates...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.LoggedPrintStream" timestamp="1790559852965" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[STDOUT]: [Mouse Tweaks] Main.initialize()]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.LoggedPrintStream" timestamp="1790559852974" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[STDOUT]: [Mouse Tweaks] Initialized.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.LoggedPrintStream" timestamp="1790559853320" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[STDOUT]: [TRender] Initializing Client...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="dev.yumi.mc.core.impl.YumiFoundationMod" timestamp="1790559853321" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Initializing mods (entrypoint yumi:init)...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="LambDynamicLights" timestamp="1790559853421" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[LambDynLights] Initializing LambDynamicLights...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="LambDynamicLights|Config" timestamp="1790559853438" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[LambDynLights] Configuration loaded.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790559853782" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Backend library: LWJGL version 3.4.1-snapshot]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559853980" level="WARN" thread="ForkJoinPool.commonPool-worker-1">
+    <log4j:Message><![CDATA[[Iris Update Check] This version doesn't have an update index, skipping.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-AmdWorkarounds" timestamp="1790559854055" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Modifying process environment to apply workarounds for the AMD graphics driver...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559854314" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Debug functionality is disabled.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559854315" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[ARB_direct_state_access detected, enabling DSA.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559854569" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Profile: VERYLOW (+0 options changed by user)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559855183" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Using shaderpack: ComplementaryReimagined_r5.9.3.zip]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790559855183" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Using graphics backend OpenGL, using drivers: 3.3.0 Core Profile Context 25.8.1.250617]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790559855183" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Using graphics device: Radeon RX 580 Series (ATI Technologies Inc.)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790559855184" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Using graphics device extensions: GL_ARB_multi_draw_indirect, GL_ARB_buffer_storage, GL_ARB_shader_draw_parameters, GL_ARB_base_instance, GL_KHR_debug, GL_ARB_draw_indirect, GL_ARB_clip_control, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559855661" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Hardware information:]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559855691" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[CPU: 16x AMD Ryzen 7 3800X 8-Core Processor ]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559855691" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[GPU: Radeon RX 580 Series (Supports OpenGL 3.3.0 Core Profile Context 25.8.1.250617)]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="Iris" timestamp="1790559855691" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[OS: Windows 11 (10.0)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.packs.resources.ReloadableResourceManager" timestamp="1790559856164" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Reloading ResourceManager: vanilla, entity_model_features, entity_texture_features, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, inventoryprofilesnext, iris, lambdynlights, lambdynlights_api, libipn, modmenu, notenoughanimations, ok_zoomer, placeholder-api, pride, shouldersurfing, sodium, spruceui, trender, wrench_wrapper, wrench_wrapper_backend, file/FreshAnimations_v1.10.5.zip, file/FA+Player-v1.1.zip, file/FA+All_Extensions-v1.9.2.zip, file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ShoulderSurfing" timestamp="1790559856360" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Registering plugin for Shoulder Surfing Reloaded (shouldersurfing)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Ok Zoomer" timestamp="1790559856418" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[Ok Zoomer] ªwª what's this]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.font.providers.UnihexProvider" timestamp="1790559856463" level="INFO" thread="Worker-Main-13">
+    <log4j:Message><![CDATA[Found unifont_pua-17.0.01.hex, loading]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.client.gui.font.providers.UnihexProvider" timestamp="1790559856466" level="INFO" thread="Worker-Main-3">
+    <log4j:Message><![CDATA[Found unifont_all_no_pua-17.0.01.hex, loading]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.font.providers.UnihexProvider" timestamp="1790559856571" level="INFO" thread="Worker-Main-10">
+    <log4j:Message><![CDATA[Found unifont_jp_patch-17.0.01.hex, loading]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GlSurface" timestamp="1790559856990" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Thread[#3,Render thread,10,main]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GlSurface" timestamp="1790559856995" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[OpenGL Vendor: ATI Technologies Inc.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GlSurface" timestamp="1790559856996" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[OpenGL Renderer: Radeon RX 580 Series]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="Sodium-GlSurface" timestamp="1790559856996" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[OpenGL Version: 3.3.0 Core Profile Context 25.8.1.250617]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="com.mojang.blaze3d.opengl.GlProgram" timestamp="1790559859189" level="WARN" thread="Render thread">
+    <log4j:Message><![CDATA[minecraft:pipeline/item_cutout shader program does not use sampler Sampler1 defined in the pipeline. This might be a bug.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="com.mojang.blaze3d.opengl.GlProgram" timestamp="1790559859196" level="WARN" thread="Render thread">
+    <log4j:Message><![CDATA[minecraft:pipeline/item_translucent shader program does not use sampler Sampler1 defined in the pipeline. This might be a bug.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="com.mojang.blaze3d.audio.Library" timestamp="1790559859262" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[OpenAL initialized on device OpenAL Soft on Audífono de los auriculares con micrófono (CORSAIR HS80 RGB Wireless Gaming Headset)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.sounds.SoundEngine" timestamp="1790559859264" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Sound engine started]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859264" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859287" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859289" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859300" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859301" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859301" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859373" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859374" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859375" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859376" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859406" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859419" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.texture.TextureAtlas" timestamp="1790559859420" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559859840" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559862157" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: reloading ETF data.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559862163" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559862211" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Creating pipeline for dimension minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559904528" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Found new data pack ok_zoomer, loading it automatically]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.world.item.crafting.RecipeManager" timestamp="1790559905484" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 1585 recipes]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790559905505" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 1688 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790559905542" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl" timestamp="1790559905661" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Applied 0 biome modifications to 0 of 66 new biomes in 1.125 ms]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790559905672" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Starting integrated minecraft server version 26.2]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559905672" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Generating keypair]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.level.progress.LoggingLevelLoadListener" timestamp="1790559906093" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Loading 0 persistent chunks...]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.level.progress.LoggingLevelLoadListener" timestamp="1790559906093" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Preparando zona de aparición: 16%]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906105" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906236" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906240" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906255" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (world): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906256" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (DIM1): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906256" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (DIM-1): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559906256" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage: All dimensions are saved]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.level.progress.LoggingLevelLoadListener" timestamp="1790559906747" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Loading 49 chunks for player spawn...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.level.progress.LoggingLevelLoadListener" timestamp="1790559906747" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Preparando zona de aparición: 16%]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.level.progress.LoggingLevelLoadListener" timestamp="1790559907009" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Time elapsed: 916 ms]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.players.PlayerList" timestamp="1790559907221" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_[local:E:f39e65d0] logged in with entity id 70 at (176.9911452779274, 67.0, -157.79579871568126)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559907271" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_ se conectó]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790559907399" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Changing view distance to 12, from 10]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790559907402" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Changing simulation distance to 12, from 0]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790559907443" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Started 10 worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Inventory Profiles Next" timestamp="1790559907655" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[Inventory Profiles Next] Loaded 0 external GUI hints]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Inventory Profiles Next" timestamp="1790559907657" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[Inventory Profiles Next] Loaded 803 build-in GUI hints]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Inventory Profiles Next" timestamp="1790559907657" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[Inventory Profiles Next] Effective GUI hints after merge: 803]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790559907696" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 102 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790559907777" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Stopping worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790559907787" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Started 10 worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559907833" level="WARN" thread="Render thread">
+    <log4j:Message><![CDATA[Error while parsing the block ID map entry for "block.10104":]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790559907833" level="WARN" thread="Render thread">
+    <log4j:Message><![CDATA[- The block minecraft:stone_slab has no property with the name variant, ignoring!]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.DynamicUniformStorage" timestamp="1790559908024" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790559908238" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Stopping worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790559908244" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Started 10 worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.DynamicUniformStorage" timestamp="1790559908275" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.renderer.DynamicUniformStorage" timestamp="1790559908378" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790559986050" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[[michi_o_o_: Se estableció minecraft:overworld al marcador de tiempo minecraft:night]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.components.ChatComponent" timestamp="1790559986056" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[System] [CHAT] Se estableció minecraft:overworld al marcador de tiempo minecraft:night]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560024630" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 103 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560052166" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 103 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560161623" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 104 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560173017" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_ acaba de conseguir el progreso [En el punto de mira]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.components.ChatComponent" timestamp="1790560173033" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[System] [CHAT] michi_o_o_ acaba de conseguir el progreso [En el punto de mira]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560173072" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 104 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560173090" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:pipeline/outline_no_cull in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer$mixinextras$wrapped$14(PreparedRenderType.java:36)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.mixinextras$bridge$drawFromBuffer$mixinextras$wrapped$14$15(PreparedRenderType.java)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.wrapMethod$bmj000$iris$wrapBuffer(PreparedRenderType.java:521)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer(PreparedRenderType.java)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer(PreparedRenderType.java:28)
+	at knot//net.minecraft.client.renderer.feature.RenderTypeFeatureRenderer.executeGroup(RenderTypeFeatureRenderer.java:45)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedGroup.execute(FeatureRenderDispatcher.java:318)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedFrame.executePhase(FeatureRenderDispatcher.java:196)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedFrame.executeOutline(FeatureRenderDispatcher.java:172)
+	at knot//net.minecraft.client.renderer.LevelRenderer.lambda$addMainPass$0(LevelRenderer.java:443)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560173093" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:entity_outline/0 in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.PostPass.lambda$addToFrame$1(PostPass.java:98)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560173094" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:entity_outline/1 in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.PostPass.lambda$addToFrame$1(PostPass.java:98)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560173095" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:entity_outline/2 in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.PostPass.lambda$addToFrame$1(PostPass.java:98)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560173095" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:entity_outline/3 in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.PostPass.lambda$addToFrame$1(PostPass.java:98)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Iris" timestamp="1790560196974" level="FATAL" thread="Render thread">
+    <log4j:Message><![CDATA[Missing program minecraft:pipeline/outline_cull in override list. This is likely an Iris bug!!!]]></log4j:Message>
+    <log4j:Throwable><![CDATA[java.lang.Throwable
+	at knot//com.mojang.blaze3d.opengl.GlDevice.handler$bmk000$iris$redirectIrisProgram(GlDevice.java:569)
+	at knot//com.mojang.blaze3d.opengl.GlDevice.getOrCompilePipeline(GlDevice.java)
+	at knot//com.mojang.blaze3d.opengl.GlRenderPass.setPipeline(GlRenderPass.java:83)
+	at knot//com.mojang.blaze3d.systems.RenderPass.setPipeline(RenderPass.java:89)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer$mixinextras$wrapped$14(PreparedRenderType.java:36)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.mixinextras$bridge$drawFromBuffer$mixinextras$wrapped$14$15(PreparedRenderType.java)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.wrapMethod$bmj000$iris$wrapBuffer(PreparedRenderType.java:521)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer(PreparedRenderType.java)
+	at knot//net.minecraft.client.renderer.rendertype.PreparedRenderType.drawFromBuffer(PreparedRenderType.java:28)
+	at knot//net.minecraft.client.renderer.feature.RenderTypeFeatureRenderer.executeGroup(RenderTypeFeatureRenderer.java:45)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedGroup.execute(FeatureRenderDispatcher.java:318)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedFrame.executePhase(FeatureRenderDispatcher.java:196)
+	at knot//net.minecraft.client.renderer.feature.FeatureRenderDispatcher$PreparedFrame.executeOutline(FeatureRenderDispatcher.java:172)
+	at knot//net.minecraft.client.renderer.LevelRenderer.lambda$addMainPass$0(LevelRenderer.java:443)
+	at knot//com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:67)
+	at knot//net.minecraft.client.renderer.LevelRenderer.render(LevelRenderer.java:240)
+	at knot//net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$86(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel(GameRenderer.java:3382)
+	at knot//net.minecraft.client.renderer.GameRenderer.wrapOperation$bmg000$iris$renderLevel$mixinextras$bridge$75(GameRenderer.java)
+	at knot//net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:588)
+	at knot//net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:428)
+	at knot//net.minecraft.client.Minecraft.renderFrame(Minecraft.java:1374)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1269)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+]]></log4j:Throwable>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560219775" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 104 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560251608" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560251617" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560251631" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560251632" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560297658" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560297665" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560297673" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560297674" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560330367" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 107 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560332115" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 107 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560336958" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560336966" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560336978" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560336978" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560387458" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560387465" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560387476" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560387476" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560431758" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560431766" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560431774" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560431775" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560542857" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560542866" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560542878" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560542879" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560551058" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560551070" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560551077" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560551078" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560579116" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_ acaba de conseguir el progreso [Dulces sueños]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.components.ChatComponent" timestamp="1790560579120" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[System] [CHAT] Se estableció el punto de reaparición]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.gui.components.ChatComponent" timestamp="1790560579120" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[System] [CHAT] michi_o_o_ acaba de conseguir el progreso [Dulces sueños]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.advancements.AdvancementTree" timestamp="1790560579133" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Loaded 107 advancements]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.server.IntegratedServer" timestamp="1790560592757" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving and pausing game...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560592764" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560592771" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560592772" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593275" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Stopping server]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593275" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving players]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.network.ServerGamePacketListenerImpl" timestamp="1790560593281" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_ lost connection: Desconectado/a]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593282" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[michi_o_o_ se desconectó]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.network.ServerCommonPacketListenerImpl" timestamp="1790560593289" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Stopping singleplayer server as player logged out]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593289" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving worlds]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593433" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593903" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593907" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593914" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (world): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593914" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (DIM1): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593914" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage (DIM-1): All chunks are saved]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.server.MinecraftServer" timestamp="1790560593914" level="INFO" thread="Server thread">
+    <log4j:Message><![CDATA[ThreadedAnvilChunkStorage: All dimensions are saved]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="ChunkBuilder" timestamp="1790560593983" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Stopping worker threads]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790560594000" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790560594007" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.minecraft.client.Minecraft" timestamp="1790560595449" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[Stopping!]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Entity Texture Features" timestamp="1790560595470" level="INFO" thread="Render thread">
+    <log4j:Message><![CDATA[[ETF]: emissive suffixes loaded: [_e]]]></log4j:Message>
+  </log4j:Event>
+
+[EXIT] code=0, terminatedByApp=false
