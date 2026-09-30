@@ -50,7 +50,7 @@ invertYMouse:false
 realmsNotifications:true
 showSubtitles:false
 directionalAudio:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 toggleAttack:false
@@ -64,7 +64,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/FreshAnimations_v1.10.5.zip","file/FA+Player-v1.1.zip","file/FA+All_Extensions-v1.9.2.zip","file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip","file/Armory Reforged v1.1.zip","file/Round Shield.zip","file/§7Better§bOres§93D §f- 26.2§0.zip"]
+resourcePacks:["vanilla","file/FreshAnimations_v1.10.5.zip","file/FA+Player-v1.1.zip","file/FA+All_Extensions-v1.9.2.zip","file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip","file/Armory Reforged v1.1.zip","file/Round Shield.zip","file/§7Better§bOres§93D §f- 26.2§0 - Fixed.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_ar
@@ -197,9 +197,9 @@ key_key.shouldersurfing.enter_third_person_back:key.keyboard.unknown
 key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.unknown
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.b
-key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_enlarge_map:key.keyboard.v
+key_gui.xaero_new_waypoint:key.keyboard.v
+key_gui.xaero_waypoints_key:key.keyboard.m
+key_gui.xaero_enlarge_map:key.keyboard.tab
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
@@ -218,9 +218,9 @@ key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.i
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:1.0
