@@ -3,3 +3,5 @@ saves/*
 crash-reports/*
 XaeroWaypoints_*/*
 logs/*
+screenshots/*
+debug/*

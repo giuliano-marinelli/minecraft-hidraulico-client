@@ -3,12 +3,12 @@ ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
 cutoutLeaves:true
-enableVsync:true
-entityDistanceScaling:1.0
-entityShadows:true
+enableVsync:false
+entityDistanceScaling:0.5
+entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.25
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -21,18 +21,18 @@ exclusiveFullscreen:true
 gamma:0.5
 guiScale:3
 maxAnisotropyBit:1
-textureFiltering:1
+textureFiltering:0
 maxFps:120
 improvedTransparency:false
 inactivityFpsLimit:"afk"
-mipmapLevels:4
+mipmapLevels:0
 narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:64
-renderDistance:12
-simulationDistance:12
+renderDistance:10
+simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
@@ -64,8 +64,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/FreshAnimations_v1.10.5.zip","file/FA+Player-v1.1.zip","file/FA+All_Extensions-v1.9.2.zip","file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip","file/Armory Reforged v1.1.zip","file/Round Shield.zip","file/§7Better§bOres§93D §f- 26.2§0 - Fixed.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/FA+Player-v1.1.zip","file/§7Better§bOres§93D §f- 26.2§0 - Fixed.zip","file/Better-Leaves-9.6.zip","file/Armory Reforged v1.1.zip","file/§f§lActually §6§l3D §fBlocks  Items!§7.zip","file/Round Shield.zip","file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip","file/Better Lanterns v1.4.0 - 26.2+26.3.zip"]
+incompatibleResourcePacks:["file/§f§lActually §6§l3D §fBlocks  Items!§7.zip"]
 lastServer:
 lang:es_ar
 chatVisibility:0
@@ -75,7 +75,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:false
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -171,6 +171,11 @@ key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.debug.lightmapTexture:key.keyboard.4
 key_key.carry.desc:key.keyboard.left.shift
+key_key.cinematic_respawn.skip_cinematic:key.keyboard.space
+key_key.fpsdisplay.toggleOverlay:key.keyboard.unknown
+key_key.mod_blueprint.exit_build_mode:key.keyboard.b
+key_key.mod_blueprint.rotate_projection:key.keyboard.r
+key_key.mod_blueprint.mirror_projection:key.keyboard.m
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.ok_zoomer.zoom:key.keyboard.c
 key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
@@ -225,13 +230,13 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
-soundCategory_record:0.5070422535211268
+soundCategory_record:0.1056338028169014
 soundCategory_weather:0.1056338028169014
 soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:0.1056338028169014
+soundCategory_hostile:0.1056338028169014
+soundCategory_neutral:0.011737089201878067
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.1056338028169014
 soundCategory_voice:1.0
 soundCategory_ui:1.0
 modelPart_cape:false
